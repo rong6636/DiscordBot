@@ -1,6 +1,6 @@
 # 資深工程師
 <p align="center">
-  ![avatar_level_1s](https://user-images.githubusercontent.com/61511627/147499066-f93595a6-6249-4496-8ef4-d479e7c2b77b.png)
+  <img src="https://user-images.githubusercontent.com/61511627/147499066-f93595a6-6249-4496-8ef4-d479e7c2b77b.png">
   <a href="https://www.python.org/downloads/">
     <img alt="PyPI - Python Version" src="https://img.shields.io/pypi/pyversions/Red-Discordbot">
 
