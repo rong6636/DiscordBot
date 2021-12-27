@@ -31,7 +31,7 @@
 [CODE ](cmds/hazardcondition_phenomena.py)
 
 ## 新聞關鍵字
-這是我覺得最繁瑣的功能之一，新聞標題來自Youtube[]。
+這是我覺得最繁瑣的功能之一，新聞標題來自[Youtube](http://www.youtube.com/)。
 #### 爬蟲
 - 為盡可能政治中立，擷取多家新聞台，且每個爬蟲都要量身打造。
 - 國內來源主要有TVBS、三立、民視與台視。
