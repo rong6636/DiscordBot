@@ -1,11 +1,14 @@
 # 資深工程師
+<p align="center">
+  <a href="https://www.python.org/downloads/">
+    <img alt="PyPI - Python Version" src="https://img.shields.io/pypi/pyversions/Red-Discordbot">
+  </a>
+  <a href="https://github.com/Rapptz/discord.py/">
+     <img src="https://img.shields.io/badge/discord-py-blue.svg" alt="discord.py">
+  </a>
+</p>
+
 一個基於提供生活訊息運用資料截取、網路架構、任務排程 架設於雲端伺服器的DISCORD機器人
-
-[![Discord](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
-
-Dillinger is a cloud-enabled, mobile-ready, offline-storage compatible,
-AngularJS-powered HTML5 Markdown editor.
-
 
 ## 主要功能
 
@@ -67,8 +70,8 @@ AngularJS-powered HTML5 Markdown editor.
 - ...
 
 ## 為了機器人所使用的輔助API
-- 伺服器架設：[replit](https://replit.com/)
-- 伺服器回朔處理：[jsonstorage](https://app.jsonstorage.net/)
+- 雲端架設：[replit](https://replit.com/)
+- 資料回朔問題備份：[jsonstorage](https://app.jsonstorage.net/)
 
 
 
