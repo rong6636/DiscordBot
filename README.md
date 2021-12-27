@@ -22,16 +22,18 @@
 - 每三小時提供新聞關鍵字
 - 第一時間提供氣象局地震報告資訊
 - 與朋友的玩物 - 指令抽圖 :)
-- 普通功能：CPC油價、小遊戲、好友呼叫...。
-- 有些過時，如：奧林匹克排行...。
+- 普通功能：CPC油價、小遊戲、好友呼叫...等
+- 有些過時，如：奧林匹克排行...等
 
 隨需求增加，機器人會不斷增加功能。
 
 
 ## 天氣警特報資訊
 
-- 使用[中央氣象局](https://opendata.cwb.gov.tw/)的天氣警特報資料  
-- 提供豪雨、低溫、強風...的即時天氣訊息。
+- 使用[中央氣象局](https://opendata.cwb.gov.tw/)的天氣警特報資訊  
+- 提供豪雨、低溫、強風、大霧...等，即時天氣警報訊息。
+
+台灣屬於多氣候地帶，隨時掌握極端天氣，有助於規劃行程。
 
 ![image](https://user-images.githubusercontent.com/61511627/147489909-2425ab93-f447-4f20-b176-89ff0d36811b.png)    
 [CODE ](cmds/hazardcondition_phenomena.py)
@@ -57,26 +59,27 @@
 
 ## 地震報告
 - 觸發機器人地震報告功能 >> 機器人回傳報告
-- 使用[中央氣象局](https://opendata.cwb.gov.tw/)的天氣警特報資料  
-- 整理報告後推播志公眾頻
+- 擷取來自[中央氣象局](https://opendata.cwb.gov.tw/)的地震資訊  
+- 整理報告後推播至公眾頻
 
+台灣屬於多地震帶，偶爾的地震發生，人們會互相道平安。機器人若擷取到有關地震的訊息，就執行報告功能，在第一時間告知最新的地震詳細資訊。
 ![image](https://user-images.githubusercontent.com/61511627/147490389-17de2646-225a-4aa4-8459-079ee4d5b69f.png)   
 [CODE](cmds/earthquake_report.py)
 
 ## 有趣的抽圖
 - 照片來自IG爬蟲，存放於雲端
-- 使用[中央氣象局](https://opendata.cwb.gov.tw/)的天氣警特報資料  
-- 整理報告後推播志公眾頻
+- 特別的是，我還寫了按讚功能，讓倒讚數多的圖片能被系統刪掉。
 
+因為自己之前寫了一個IG爬蟲，爬到的圖片很多，但圖片多也沒有人看實在可惜，就順手寫了這個功能。
 ![image](https://user-images.githubusercontent.com/61511627/147490110-f7b4917e-86ed-477f-ac30-ded2f0b4b4c6.png)   
 [CODE](cmds/earthquake_report.py)
 
 ## 還有很多很多！
-- [cmds](cmds)
 - CPC油價
 - 小遊戲
 - 好友呼叫
 - 2020東奧
+- [CMDS](cmds)
 - ...
 
 ## 為了機器人所使用的輔助API
