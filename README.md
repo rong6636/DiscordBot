@@ -27,7 +27,7 @@
 - 使用[中央氣象局](https://opendata.cwb.gov.tw/)的天氣警特報資料  
 - 提供豪雨、低溫、強風...的即時天氣訊息。
 
-![messageImage_1640610508915](https://user-images.githubusercontent.com/61511627/147487490-d343a4e4-4ee3-4de0-9e89-7a8c69f36ae1.jpg)   
+![image](https://user-images.githubusercontent.com/61511627/147489909-2425ab93-f447-4f20-b176-89ff0d36811b.png)    
 [CODE ](cmds/hazardcondition_phenomena.py)
 
 ## 新聞關鍵字
@@ -46,7 +46,7 @@
 這個功能花了我最多時間，但也從中學到最多，尤其把爬蟲的底子打扎實不少。
 每天看到自己做的機器人，能隨時提供時事資訊，不僅感到快活，也省下不少去看無意義新聞的時間。
 
-![image](https://user-images.githubusercontent.com/61511627/147487316-43557100-cee2-48b8-a5d8-957bab1597b2.png)   
+![image](https://user-images.githubusercontent.com/61511627/147489206-2c7c9e8b-9aa6-4edd-8256-b0aee65acc56.png)   
 [CODE](cmds/newsTitle.py)
 
 ## 地震報告
@@ -62,7 +62,7 @@
 - 使用[中央氣象局](https://opendata.cwb.gov.tw/)的天氣警特報資料  
 - 整理報告後推播志公眾頻
 
-![messageImage_1640611155457](https://user-images.githubusercontent.com/61511627/147487525-902b2a70-e404-4284-8777-b94eaeefcc17.jpg)   
+![image](https://user-images.githubusercontent.com/61511627/147490110-f7b4917e-86ed-477f-ac30-ded2f0b4b4c6.png)   
 [CODE](cmds/earthquake_report.py)
 
 ## 還有很多很多！
