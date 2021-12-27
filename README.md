@@ -54,7 +54,7 @@
 - 使用[中央氣象局](https://opendata.cwb.gov.tw/)的天氣警特報資料  
 - 整理報告後推播志公眾頻
 
-![image](https://user-images.githubusercontent.com/61511627/147487372-bf7938e0-5a6d-4b70-b151-f57eba4c6bda.jpg)   
+![image](https://user-images.githubusercontent.com/61511627/147490389-17de2646-225a-4aa4-8459-079ee4d5b69f.png)   
 [CODE](cmds/earthquake_report.py)
 
 ## 有趣的抽圖
