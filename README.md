@@ -12,7 +12,7 @@
   <a href="https://github.com/Rapptz/discord.py/">
      <img src="https://img.shields.io/badge/discord-py-blue.svg" alt="discord.py">
   </a>
-  <a href="https://discrod.gg/vN3sKVebBk">
+  <a href="https://discod.gg/vN3sKVebBk">
      <img src="https://img.shields.io/discord/603566154153328650" alt="discord channel">
   </a>
 </p>
