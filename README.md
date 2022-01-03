@@ -83,10 +83,10 @@ NEWS keyword
 [CODE](cmds/earthquake_report.py)
 
 ## 還有很多很多！
-- CPC油價
-- ![image](https://user-images.githubusercontent.com/61511627/147936205-a25a80d6-34e6-4dbb-b446-4987f2545c91.png)
-- 2020東奧
-- ![image](https://user-images.githubusercontent.com/61511627/147936132-ae505603-8363-4227-87e7-d88d48b15ea1.png)
+- CPC油價  
+![image](https://user-images.githubusercontent.com/61511627/147936205-a25a80d6-34e6-4dbb-b446-4987f2545c91.png)
+- 2020東奧  
+![image](https://user-images.githubusercontent.com/61511627/147936132-ae505603-8363-4227-87e7-d88d48b15ea1.png)
 - 小遊戲
 - 好友呼叫
 - [CMDS](cmds)
