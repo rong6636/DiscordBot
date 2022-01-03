@@ -47,7 +47,7 @@
 這個功能花了我最多時間，但也從中學到最多，尤其把爬蟲的底子打扎實不少。
 每天看到自己做的機器人，能隨時提供時事資訊，不僅感到快活，也省下不少去看無意義新聞的時間。
 
-NEWS keyword![image](https://user-images.githubusercontent.com/61511627/147935391-29112d57-313a-4150-a18c-bcd253ecc618.png)  
+NEWS keyword： ![image](https://user-images.githubusercontent.com/61511627/147935391-29112d57-313a-4150-a18c-bcd253ecc618.png)  
 更新log紀錄  
 ![image](https://user-images.githubusercontent.com/61511627/147489206-2c7c9e8b-9aa6-4edd-8256-b0aee65acc56.png)   
 [CODE](cmds/newsTitle.py)
