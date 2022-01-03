@@ -78,7 +78,7 @@ NEWS keyword： ![image](https://user-images.githubusercontent.com/61511627/1479
 
 因為自己之前寫了一個IG爬蟲，爬到的圖片很多，但圖片多也沒有人看實在可惜，就順手寫了這個功能。
 
-![image](https://user-images.githubusercontent.com/61511627/147490110-f7b4917e-86ed-477f-ac30-ded2f0b4b4c6.png)   
+![image](![image](https://user-images.githubusercontent.com/61511627/147946393-203d6bc2-6151-41b2-9c66-50a8fd73e5c4.png))   
 [CODE](cmds/earthquake_report.py)
 
 ## 還有很多很多！
