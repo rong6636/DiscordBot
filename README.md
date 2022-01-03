@@ -84,18 +84,16 @@ NEWS keyword
 
 ## 還有很多很多！
 - CPC油價
+  ![image](https://user-images.githubusercontent.com/61511627/147936205-a25a80d6-34e6-4dbb-b446-4987f2545c91.png)
 - 2020東奧
+  ![image](https://user-images.githubusercontent.com/61511627/147936132-ae505603-8363-4227-87e7-d88d48b15ea1.png)
 - 小遊戲
 - 好友呼叫
 - [CMDS](cmds)
 - ...
 
-- ![image](https://user-images.githubusercontent.com/61511627/147936132-ae505603-8363-4227-87e7-d88d48b15ea1.png)
-- ![image](https://user-images.githubusercontent.com/61511627/147936205-a25a80d6-34e6-4dbb-b446-4987f2545c91.png)
 
-
-
-## 為了機器人所使用的輔助服務
+## 為了機器人所使用的服務
 - 雲端架設：[![replit](https://camo.githubusercontent.com/5456d62b1dc41ed0e630a0394b751a21439fcb37236fb2afcf871c1385c11d5f/68747470733a2f2f7265706c2e69742f62616467652f6769746875622f616d6972313232362f5265706c742e69742d636f6469676f73)](https://replit.com/)
 - 資料回朔問題備份：[jsonstorage](https://app.jsonstorage.net/)
 
