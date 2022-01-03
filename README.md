@@ -21,25 +21,15 @@
 
 ## 主要功能
 
-- 每小時更新天氣警特報資訊
 - 每三小時提供新聞關鍵字
 - 第一時間提供氣象局地震報告資訊
+- 每小時更新天氣警特報資訊
 - 與朋友的玩物 - 指令抽圖 :)
 - 普通功能：CPC油價、小遊戲、好友呼叫...等
 - 有些過時，如：奧林匹克排行...等
 
 隨需求增加，機器人會不斷增加功能。
 
-
-## 天氣警特報資訊
-
-- 使用[中央氣象局](https://opendata.cwb.gov.tw/)的天氣警特報資訊  
-- 提供豪雨、低溫、強風、大霧...等，即時天氣警報訊息。
-
-台灣天氣多變，隨時掌握極端天氣，有助於規劃行程。
-
-![image](https://user-images.githubusercontent.com/61511627/147489909-2425ab93-f447-4f20-b176-89ff0d36811b.png)    
-[CODE ](cmds/hazardcondition_phenomena.py)
 
 ## 新聞關鍵字
 這是我覺得最繁瑣的功能之一，新聞標題來自[Youtube](http://www.youtube.com/)。
@@ -57,6 +47,9 @@
 這個功能花了我最多時間，但也從中學到最多，尤其把爬蟲的底子打扎實不少。
 每天看到自己做的機器人，能隨時提供時事資訊，不僅感到快活，也省下不少去看無意義新聞的時間。
 
+NEWS keyword
+![image](https://user-images.githubusercontent.com/61511627/147935391-29112d57-313a-4150-a18c-bcd253ecc618.png)
+更新log
 ![image](https://user-images.githubusercontent.com/61511627/147489206-2c7c9e8b-9aa6-4edd-8256-b0aee65acc56.png)   
 [CODE](cmds/newsTitle.py)
 
@@ -70,6 +63,16 @@
 ![image](https://user-images.githubusercontent.com/61511627/147490389-17de2646-225a-4aa4-8459-079ee4d5b69f.png)   
 [CODE](cmds/earthquake_report.py)
 
+## 天氣警特報資訊
+
+- 使用[中央氣象局](https://opendata.cwb.gov.tw/)的天氣警特報資訊  
+- 提供豪雨、低溫、強風、大霧...等，即時天氣警報訊息。
+
+台灣天氣多變，隨時掌握極端天氣，有助於規劃行程。
+
+![image](https://user-images.githubusercontent.com/61511627/147489909-2425ab93-f447-4f20-b176-89ff0d36811b.png)    
+[CODE ](cmds/hazardcondition_phenomena.py)
+
 ## 有趣的抽圖
 - 照片來自IG爬蟲，存放於雲端
 - 特別的是，我還寫了按讚功能，讓倒讚數多的圖片能被系統自動刪掉。
@@ -81,11 +84,16 @@
 
 ## 還有很多很多！
 - CPC油價
+- 2020東奧
 - 小遊戲
 - 好友呼叫
-- 2020東奧
 - [CMDS](cmds)
 - ...
+
+- ![image](https://user-images.githubusercontent.com/61511627/147936132-ae505603-8363-4227-87e7-d88d48b15ea1.png)
+- ![image](https://user-images.githubusercontent.com/61511627/147936205-a25a80d6-34e6-4dbb-b446-4987f2545c91.png)
+
+
 
 ## 為了機器人所使用的輔助服務
 - 雲端架設：[![replit](https://camo.githubusercontent.com/5456d62b1dc41ed0e630a0394b751a21439fcb37236fb2afcf871c1385c11d5f/68747470733a2f2f7265706c2e69742f62616467652f6769746875622f616d6972313232362f5265706c742e69742d636f6469676f73)](https://replit.com/)
