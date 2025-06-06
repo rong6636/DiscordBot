@@ -91,10 +91,5 @@ NEWS keyword： ![image](https://user-images.githubusercontent.com/61511627/1479
 - [CMDS](cmds)
 - ...
 
-
-## 為了機器人所使用的服務
-- 雲端架設：[![replit](https://camo.githubusercontent.com/5456d62b1dc41ed0e630a0394b751a21439fcb37236fb2afcf871c1385c11d5f/68747470733a2f2f7265706c2e69742f62616467652f6769746875622f616d6972313232362f5265706c742e69742d636f6469676f73)](https://replit.com/)
-- 資料回朔問題備份：[jsonstorage](https://app.jsonstorage.net/)
-
 [![](https://img.shields.io/youtube/channel/views/UC3kkchuB6sP0a7rxtF7I2lg?style=social)](https://www.youtube.com/channel/UC3kkchuB6sP0a7rxtF7I2lg)
 
