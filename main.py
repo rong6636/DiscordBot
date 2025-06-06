@@ -1,59 +1,50 @@
 '''
-    ### MAIN FUNCTION ###
-    ### 版本資訊
-        # 1.0
-            史前時代，未留紀錄
-        # 2.2
-            圖片庫增加420%，現在任何訊息含有'抽'字，都會觸發隨機抽圖。",
-        # 2.3
-            精簡程式碼，準備工作
-            預備簡化圖片模組，抽圖 peko
-            簡化爬蟲模組
+    2023 04 07 用AI增強code邏輯與可讀性
+    2023 04 28 更新discord.py版本 1.7.3 >> 2.2.2
+
+    2023 0821 change token: test -> 姊姊在山上釣鯨魚。 private channel change to public channel
     
-    ### 基礎設定
-        # 注意地方
-            放上repl.it時加上 import keep_alive
-            與 在bot.run(jdata['TOKEN'])前面再加上keep_alive.keep_alive()
-    
+    ------ version 3 ------
+    # 2025 0606 將機器人從海大實驗室server 移到其他地方跑。 同時更新程式碼。
+
 '''
-import json
+
+
+
 import os
 import random
-import keep_alive
+import asyncio
+
+# 設定 config
+from config import config as cfg
+
+# 設定 Discord Bot
 import discord
 from discord.ext import commands
+intents = discord.Intents.default()
+intents.message_content = True
+bot = commands.Bot(command_prefix='!', intents=intents)
 
-with open ('setting.json', 'r', encoding='utf8') as jfile:
-    jdata = json.load(jfile)
+# 設定日誌
+import logging
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger("discord_bot")
 
-bot = commands.Bot(command_prefix = '!')
+async def load_extensions(bot):
+    cogs_dir = cfg.get('server', 'cogs_path')
+    for filename in os.listdir(cogs_dir):
+        if filename.endswith('.py'):
+            try:
+                await bot.load_extension(f'cogs.{filename[:-3]}')
+                logger.info(f"Loaded {filename[:-3]}")
+            except Exception as e:
+                logger.error(f"Failed to load {filename[:-3]}: {e}")
 
 @bot.event
 async def on_ready():
-    print(">>偷偷插要用衛生紙 is online<<")
-    await bot.change_presence(activity=discord.Game(name = "轉生後當上八星魔王"))
-
-
-@bot.command()
-async def load(ctx, extension):
-    bot.load_extension(f'cmds.{extension}')
-    await ctx.send(f'Loaded "{extension}" done!')
-
-@bot.command()
-async def unload(ctx, extension):
-    bot.unload_extension(f'cmds.{extension}')
-    await ctx.send(f'Un-Loaded "{extension}" done!')
-
-@bot.command()
-async def reload(ctx, extension):
-    bot.reload_extension(f'cmds.{extension}')
-    await ctx.send(f'Re-Loaded "{extension}" done!')
-
-for filename in os.listdir('./cmds'):
-    if filename.endswith('.py'):
-        bot.load_extension(f'cmds.{filename[:-3]}')
-
+    print(f">> {cfg.get('bot', 'name')} is online<<")
+    await load_extensions(bot)
+    await bot.change_presence(activity=discord.Game(name="轉生後當上八星魔王"))
 
 if __name__ == "__main__":
-    keep_alive.keep_alive()
-    bot.run(jdata['TOKEN'])
+    bot.run(cfg.get('bot', 'TOKEN'))
